@@ -85,3 +85,32 @@ unzip saskatchewan-latest-free.shp.zip
 
 wget http://download.geofabrik.de/north-america/canada/yukon-latest-free.shp.zip
 unzip yukon-latest-free.shp.zip
+
+# Download and Unzip all Open Database of Buildings Data
+echo Downloading ODB Data from Statistics Canada
+mkdir ../odb
+cd ../odb
+
+wget https://www150.statcan.gc.ca/n1/pub/34-26-0001/2018001/ODB_v2_Alberta.zip
+unzip ODB_v2_Alberta.zip
+
+wget https://www150.statcan.gc.ca/n1/pub/34-26-0001/2018001/ODB_v2_BritishColumbia.zip
+unzip ODB_v2_BritishColumbia.zip
+
+wget https://www150.statcan.gc.ca/n1/pub/34-26-0001/2018001/ODB_v2_NewBrunswick.zip
+unzip ODB_v2_NewBrunswick.zip
+
+wget https://www150.statcan.gc.ca/n1/pub/34-26-0001/2018001/ODB_v2_NorthwestTerritories.zip
+unzip ODB_v2_NorthwestTerritories.zip
+
+wget https://www150.statcan.gc.ca/n1/pub/34-26-0001/2018001/ODB_v2_NovaScotia.zip
+unzip ODB_v2_NovaScotia.zip
+
+wget https://www150.statcan.gc.ca/n1/pub/34-26-0001/2018001/ODB_v2_Ontario.zip
+unzip ODB_v2_Ontario.zip
+
+wget https://www150.statcan.gc.ca/n1/pub/34-26-0001/2018001/ODB_v2_Quebec.zip
+unzip ODB_v2_Quebec.zip
+
+wget https://www150.statcan.gc.ca/n1/pub/34-26-0001/2018001/ODB_v2_Saskatchewan.zip
+unzip ODB_v2_Saskatchewan.zip
