@@ -153,3 +153,7 @@ unzip ODB_v2_Quebec.zip -d qc
 
 wget https://www150.statcan.gc.ca/n1/pub/34-26-0001/2018001/ODB_v2_Saskatchewan.zip
 unzip ODB_v2_Saskatchewan.zip -d sk
+
+# Download CSD Data
+wget http://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/files-fichiers/2016/lcsd000b16a_e.zip
+unzip lcsd000b16a_e.zip
