@@ -158,5 +158,5 @@ unzip ODB_v2_Saskatchewan.zip -d sk
 echo Downloading Census Subdivision Data
 mkdir lcsd000b16a_e
 cd lcsd000b16a_e
-wget http://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/files-fichiers/2016/lcsd000b16a_e.zip
+wget https://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/files-fichiers/2016/lcsd000b16a_e.zip
 unzip lcsd000b16a_e.zip
